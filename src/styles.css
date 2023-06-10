@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #212121;
+  --main-font-color: #eaf8ff;
+  --input-border-color: #6b6b6b;
+  --orange: #ff6c37;
+}
+
+.react-select {
+  flex-grow: 0;
+  width: auto;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--main-font-color);
+}
+
+input, select {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: var(--input-border-color) !important;
+}
+
+option {
+  background-color: var(--bg-color);
+  color: var(--main-font-color);
+}
+
+.tab-content, .nav-tabs {
+  border-color: var(--input-border-color) !important;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-link-active-bg: #ff6c37;
+  --bs-nav-tabs-border-color: #6b6b6b;
+  --bs-nav-link-color: #6b6b6b;
+  --bs-nav-link-hover-color: #eaf8ff;
+  --bs-nav-tabs-link-active-color: #eaf8ff;
+}
