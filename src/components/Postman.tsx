@@ -1,6 +1,9 @@
 import { useContext, useState } from 'react';
 import { AppContext, Params } from './AppContext';
-import { Button, Form, Tabs, Tab } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
 import QueryParamsTab from './QueryParamsTab';
 import RequestHeadersTab from './RequestHeadersTab';
 import JsonTab from './JsonTab';
